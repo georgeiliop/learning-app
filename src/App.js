@@ -94,7 +94,7 @@ function App() {
           </div>
         </nav>
         <Routes>
-          <Route path="" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/profile" element={<Profile
                                             score={score}
                                             quizesTaken={quizesTaken}np/>} />
