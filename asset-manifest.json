@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/learning-app/static/css/main.e08d7c20.css",
+    "main.js": "/learning-app/static/js/main.5afa7bd0.js",
+    "static/js/787.b4e7f8ae.chunk.js": "/learning-app/static/js/787.b4e7f8ae.chunk.js",
+    "static/media/presentation5.pdf": "/learning-app/static/media/presentation5.69b734e2002cd4193783.pdf",
+    "static/media/presentation6.pdf": "/learning-app/static/media/presentation6.ae75399936984ed44ee3.pdf",
+    "static/media/presentation7.pdf": "/learning-app/static/media/presentation7.4f79185ddf7575305954.pdf",
+    "static/media/presentation8.pdf": "/learning-app/static/media/presentation8.f12db083dfb7df58eaf1.pdf",
+    "static/media/2.png": "/learning-app/static/media/2.aed53dbceaaed5db62de.png",
+    "static/media/1.png": "/learning-app/static/media/1.15b9bd0fafb79960ca8a.png",
+    "static/media/5.png": "/learning-app/static/media/5.022edd22f9752265c58f.png",
+    "static/media/3.png": "/learning-app/static/media/3.b3cbfed83d4f0821a91a.png",
+    "static/media/4.png": "/learning-app/static/media/4.4bd1da0c5acfcc25e51a.png",
+    "static/media/misc-58.svg": "/learning-app/static/media/misc-58.fe117ba3b3dbe272c3dbd2d43f1615ae.svg",
+    "static/media/arrow-left.svg": "/learning-app/static/media/arrow-left.55da2d8f3310ab11a12ff8daea30e1de.svg",
+    "static/media/misc-51.svg": "/learning-app/static/media/misc-51.27913abcfd8f836ef4a9e363b240a4f0.svg",
+    "static/media/arrow-right.svg": "/learning-app/static/media/arrow-right.173adef1b6d35dd9f87ff73034455943.svg",
+    "static/media/arrow-2.svg": "/learning-app/static/media/arrow-2.ad287c247ebfbaf1064bd49be4671c58.svg",
+    "static/media/misc-6.svg": "/learning-app/static/media/misc-6.9fbcf68d01fc59ce517a17ccc713c716.svg",
+    "static/media/misc-1.svg": "/learning-app/static/media/misc-1.1538b487f506188cbef4ef224d256567.svg",
+    "index.html": "/learning-app/index.html",
+    "main.e08d7c20.css.map": "/learning-app/static/css/main.e08d7c20.css.map",
+    "main.5afa7bd0.js.map": "/learning-app/static/js/main.5afa7bd0.js.map",
+    "787.b4e7f8ae.chunk.js.map": "/learning-app/static/js/787.b4e7f8ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e08d7c20.css",
+    "static/js/main.5afa7bd0.js"
+  ]
+}
