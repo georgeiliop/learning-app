@@ -59,7 +59,7 @@ function App() {
         <nav class="navbar navbar--style fixed-top navbar-expand-sm navbar-light bg-light shadow" >
           <div class="container">
           <a href="/" class="navbar-brand mb-0 h1">
-          <Link class="navbar-brand mb-0 h1 home--button" to="/">Εφαρμογή Πληροφορικής</Link>
+          <Link class="navbar-brand mb-0 h1 home--button" to="/learning-app/">Εφαρμογή Πληροφορικής</Link>
             </a>
             <button
               class="navbar-toggler"
@@ -94,7 +94,7 @@ function App() {
           </div>
         </nav>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/learning-app/" element={<Home />} />
           <Route path="/profile" element={<Profile
                                             score={score}
                                             quizesTaken={quizesTaken}np/>} />
