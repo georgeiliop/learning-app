@@ -54,12 +54,12 @@ const Pdf = (props) => {
       {shown && <embed className="pdf" src={props.pdf} />}
       {!shown && <p className="p--style">{props.info}</p>}
       
-      <div class="form-check center">
-        <input class="pdfChecked form-check-input" type="checkbox" id="flexCheckDefault"
+      <div className="form-check center">
+        <input className="pdfChecked form-check-input" type="checkbox" id="flexCheckDefault"
         value={props.id}
         checked={isChecked}
         onChange={handleOnChange}/>
-        <label class="form-check-label input--label" for="flexCheckDefault">
+        <label className="form-check-label input--label" htmlFor="flexCheckDefault">
           Διάβασα το κεφάλαιο!
         </label>
       </div>

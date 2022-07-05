@@ -17,7 +17,6 @@ function App() {
     localScore=0;
   }
   const [score, setScore] = useState(localScore);
-  console.log("rendering app")
   var localQuizesNumber = JSON.parse(localStorage.getItem("quizNum"));
   if (localQuizesNumber !== null) {
     localQuizesNumber=parseInt(localQuizesNumber);
@@ -56,13 +55,11 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <nav class="navbar navbar--style fixed-top navbar-expand-sm navbar-light bg-light shadow" >
-          <div class="container">
-          <a href="/" class="navbar-brand mb-0 h1">
-          <Link class="navbar-brand mb-0 h1 home--button" to="/">Εφαρμογή Πληροφορικής</Link>
-            </a>
+        <nav className="navbar navbar--style fixed-top navbar-expand-sm navbar-light bg-light shadow" >
+          <div className="container">
+            <Link className="navbar-brand mb-0 h1 home--button" to="/learning-app">Εφαρμογή Πληροφορικής</Link>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
@@ -70,31 +67,31 @@ function App() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              class="collapse navbar-collapse justify-content-center customnav"
+              className="collapse navbar-collapse justify-content-center customnav"
               id="navbarNav"
             >
-              <ul class="navbar-nav ">
-                <li class="nav-item active">
-                  <Link class="nav-link color" to="/classes">Μαθήματα</Link>
+              <ul className="navbar-nav ">
+                <li className="nav-item active">
+                  <Link className="nav-link color" to="/classes">Μαθήματα</Link>
                 </li>
-                <li class="nav-item active">
-                  <Link class="nav-link color" to="/quiz">Quiz</Link>
+                <li className="nav-item active">
+                  <Link className="nav-link color" to="/quiz">Quiz</Link>
                 </li>
-                <li class="nav-item active">
-                  <Link class="nav-link color" to="/profile">Προφίλ</Link>
+                <li className="nav-item active">
+                  <Link className="nav-link color" to="/profile">Προφίλ</Link>
                 </li>
-                <li class="nav-item active">
-                  <Link class="nav-link color" to="/guide">Εγχειρίδιο</Link>
+                <li className="nav-item active">
+                  <Link className="nav-link color" to="/guide">Εγχειρίδιο</Link>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/learning-app" element={<Home />} />
           <Route path="/profile" element={<Profile
                                             score={score}
                                             quizesTaken={quizesTaken}np/>} />
