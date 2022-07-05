@@ -20,7 +20,7 @@ const Quizes = (props) => {
         <div className="container-fluid  quiz--page">
             <section className='section--style justify-content-center shadow container-fluid'>
                 <strong className="center">Quiz</strong>
-                <p className="center"> Πόσο καλά ξέρεις τους υπολογιστές; <br></br> Κάνε quiz για τα κεφάλαια που έχεις διαβάσει, και κέρδισε πόντους!</p>
+                <p className="center"> Πόσο καλά ξέρεις τα μαθήματα; <br></br> Κάνε quiz για τα κεφάλαια που έχεις διαβάσει, και κέρδισε πόντους!</p>
                 <div className="row d-flex align-items-center">
                     <div className="col d-flex justify-content-end">
                         <span className="arrow arrow--span">Οι πόντοι σου!</span>
