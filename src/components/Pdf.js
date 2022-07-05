@@ -51,7 +51,7 @@ const Pdf = (props) => {
       <button onClick={toggle} className="shadow-sm button--style">
         Μάθημα {props.id}
       </button>
-      {shown && <embed className=" pdf" src={props.pdf} />}
+      {shown && <embed className="pdf" src={props.pdf} />}
       {!shown && <p className="p--style">{props.info}</p>}
       
       <div class="form-check center">

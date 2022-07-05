@@ -12,7 +12,7 @@ const Guide = () => {
         <div className='container-fluid guide--page'>
             <section className='section--style section--red justify-content-center shadow'>
                 <strong className="center">Εχγειρίδιο</strong>
-                <p className="center"> Αναλυτικά βήματα λειτουργιας της εφαρμογής!</p>
+                <p className="center">Βήματα λειτουργιας της εφαρμογής!</p>
             </section>
             <div className="container d-flex flex-column guide--steps--container">
                 <p className="d-flex align-self-start">Άνοιξε τις διαφάνειες κάθε κεφαλαίου πατώντας το κουμπί</p>
