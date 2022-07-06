@@ -320,13 +320,14 @@ section > p {
 @media all and (max-width: 557px) {
   .scoreSign {
     height: 70px;
-    width: 110px;
+    width: 100px;
   }
 }
 
 .alert {
   margin: 0px;
   width: 50%;
+  min-width: 50%;
   display: flex;
   justify-content: center;
 }
@@ -342,6 +343,7 @@ section > p {
 
 .pdf--alert {
   max-width: 30%;
+  min-width: 30%;
   position: sticky;
 }
 .alert--text {
@@ -384,7 +386,7 @@ section > p {
 }
 
 .arrow {
-  width: 130px;
+  width: 120px;
   height: 100%;
 }
 
@@ -394,7 +396,7 @@ section > p {
 
 @media all and (max-width: 557px) {
   .arrow {
-    width: 100px;
+    width: 90px;
     height: 100%;
   }
 }
