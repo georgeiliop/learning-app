@@ -6,8 +6,8 @@ export default [
         id: 1,
         questionText: "Τα προγράμματα δεν μπορούμε να τα αγγίξουμε",
         answers: [
-          { answerText: "Σωστό", isCorrect: true },
-          { answerText: "Λάθος", isCorrect: false },
+          { id: 1, answerText: "Σωστό", isCorrect: true },
+          { id: 2, answerText: "Λάθος", isCorrect: false },
         ],
       },
       {
@@ -15,8 +15,8 @@ export default [
         questionText:
           "Το σύνολο των προγραμμάτων που χρησιμοποιούντια από τους υπολογιστές ονομάζονται :",
         answers: [
-          { answerText: "Λογισμικό", isCorrect: true },
-          { answerText: "Υλικό", isCorrect: false },
+          { id: 1, answerText: "Λογισμικό", isCorrect: true },
+          { id: 2, answerText: "Υλικό", isCorrect: false },
         ],
       },
       {
@@ -24,10 +24,12 @@ export default [
         questionText: "Το λογισμικό χωρίζεται σε :",
         answers: [
           {
+            id: 1,
             answerText: "Λογισμικό Εφαρμογών και Λογισμικό Υλικού",
             isCorrect: false,
           },
           {
+            id: 2,
             answerText: "Λογισμικό Εφαρμογών και Λογισμικό Συστήματος",
             isCorrect: true,
           },
@@ -38,10 +40,12 @@ export default [
         questionText: "Το λογισμικό συστήματος χωρίζεται σε :",
         answers: [
           {
+            id: 1,
             answerText: "Λειτουργικό Σύστημα και την Εργαλειοθήκη",
             isCorrect: false,
           },
           {
+            id: 2,
             answerText: "Λειτουργικό Σύστημα και Ειδικά Εργαλεία",
             isCorrect: true,
           },

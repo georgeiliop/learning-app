@@ -1,4 +1,5 @@
 import { useState } from "react";
+import React from "react";
 
 function Quiz(props) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -105,6 +106,7 @@ function Quiz(props) {
             <div className=" d-grid gap-2">
               {props.class[currentQuestion].answers.map((answer) => (
                 <button
+                  key={answer.id}
                   className="center btn btn-lg"
                   onClick={() => handleAnswerButtonClick(answer.isCorrect)}
                 >

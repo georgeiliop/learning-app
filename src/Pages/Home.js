@@ -9,7 +9,7 @@ function Home() {
     <div className="container-fluid yellow d-flex flex-column align-items-center">
       <div className="container home--div--style d-flex justify-content-center">
         {" "}
-        Καλώς ήρθες στην εφαρμογή Πληροφορικής Α' Γυμνασίου!
+        Καλώς ήρθες στην εφαρμογή Πληροφορικής Α &#39;Γυμνασίου!
       </div>
       <div className="container home--div--style d-flex justify-content-center orange shadow align-items-center">
         <img className="home--doodle" src={sun} alt="arrow" />

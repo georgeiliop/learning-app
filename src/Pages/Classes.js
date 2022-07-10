@@ -1,5 +1,6 @@
 import data from "../data.js";
 import Pdf from "../components/Pdf.js";
+import React from "react";
 
 function Classes(props) {
   const pdfs = data.map((item) => (

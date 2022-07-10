@@ -66,8 +66,8 @@ function Guide() {
       </div>
       <div className="container d-flex flex-column guide--steps--container">
         <p className="d-flex align-self-end">
-          Στην σελίδα "Προφίλ", συμπλήρωσε το όνομα, το επίθετο και το αγαπημένο
-          σου μάθημα
+          Στην σελίδα &#34;Προφίλ&#34;, συμπλήρωσε το όνομα, το επίθετο και το
+          αγαπημένο σου μάθημα
         </p>
         <img
           className="guide--png shadow-sm d-flex align-self-end"

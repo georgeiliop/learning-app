@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
+import React from "react";
 import Home from "./Pages/Home";
 import Profile from "./Pages/Profile";
 import Classes from "./Pages/Classes";
@@ -25,9 +26,9 @@ function App() {
 
   const [quizesTaken, setQuizesTaken] = useState(localQuizesNumber);
 
-  const handleScore = () => {
+  const handleScore = useCallback(() => {
     setScore((prevScore) => prevScore + 1);
-  };
+  }, []);
 
   const handleScoreOnChecked = () => {
     setScore((prevScore) => prevScore + 5);
