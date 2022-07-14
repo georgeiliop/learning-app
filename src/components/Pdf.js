@@ -67,7 +67,12 @@ function Pdf(props) {
       <button onClick={toggle} className="shadow-sm button--style">
         Μάθημα {props.id}
       </button>
-      {shown && <embed className="pdf" src={props.pdf} />}
+      {shown && (
+        <object data={props.pdf} type="application/pdf" className="pdf">
+          {" "}
+          alt : <a href={props.pdf}>class pdf</a>{" "}
+        </object>
+      )}
       {!shown && <p className="p--style">{props.info}</p>}
 
       <div className="form-check center">

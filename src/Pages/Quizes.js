@@ -31,7 +31,7 @@ function Quizes(props) {
             <span className="arrow arrow--span">Οι πόντοι σου!</span>
             <img className="arrow" src={arrow} alt="arrow" />
           </div>
-          <div className="col d-flex ">
+          <div className="col-5 d-flex ">
             <Points score={props.score} quizesTaken={props.quizesTaken} />
           </div>
         </div>
