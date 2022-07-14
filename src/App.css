@@ -397,7 +397,7 @@ section > p {
 
 @media all and (max-width: 557px) {
   .arrow {
-    width: 90px;
+    width: 70px;
     height: 100%;
     margin-right: 0px;
   }

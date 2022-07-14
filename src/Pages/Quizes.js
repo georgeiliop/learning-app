@@ -27,7 +27,7 @@ function Quizes(props) {
           πόντους!
         </p>
         <div className="row d-flex align-items-center">
-          <div className="col d-flex justify-content-end">
+          <div className="col-6 d-flex justify-content-end">
             <span className="arrow arrow--span">Οι πόντοι σου!</span>
             <img className="arrow" src={arrow} alt="arrow" />
           </div>
