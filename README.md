@@ -1,3 +1,7 @@
+# Learning App
+
+A learning app for 7th grade informatics class. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
